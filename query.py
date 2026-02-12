@@ -2,10 +2,6 @@ import requests
 
 BASE = "http://127.0.0.1:8001"
 
-# # List mid-sized companies
-# r = requests.get(f"{BASE}/companies", params={"size": "mid"})
-# r.raise_for_status()
-# print(r.json())
 
 # Get a specific rat
 r = requests.get(f"{BASE}/rats/rat1")
